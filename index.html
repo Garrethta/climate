@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Решения для жизни</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+
+    <div class="container">
+      <div class="header__adaptive-logo">
+        <a href="#">
+          <img src="img/logo-top.png" alt="">
+        </a>
+      </div>
+      <section class="header__top">
+        <a class="header__img--top" href="#">
+          <img src="img/logo-top.png" alt="">
+        </a>
+        <nav class="header__menu">
+          <ul>
+            <li class="header__menu-item">
+              <a href="">Услуги</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="">Назначение</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="">Как это работает</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="">О нас</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="">Наши работы</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__links">
+          <div class="header__phone">
+            <a href="tel:+79264233199">
+              +7 (926) 423-31-99
+            </a>
+          </div>
+          <div class="header__email">
+            <a href="mailto:info@uslugidlyabiznesa.ru">
+              info@uslugidlyabiznesa.ru
+            </a>
+          </div>
+        </div>
+        <div class="header__social">
+          <div class="header__telegram">
+            <a href="#">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="19" stroke="#0F82CF" stroke-width="2" />
+                <path
+                  d="M9.35326 19.4617L13.9617 21.2048L15.7454 27.0183C15.8595 27.3906 16.3088 27.5282 16.607 27.2811L19.1758 25.1589C19.4451 24.9365 19.8286 24.9255 20.11 25.1325L24.7432 28.5414C25.0622 28.7764 25.5141 28.5993 25.5941 28.2086L28.9882 11.6634C29.0756 11.2367 28.6618 10.8807 28.2609 11.0379L9.34786 18.4319C8.88113 18.6143 8.88519 19.2839 9.35326 19.4617ZM15.4579 20.2769L24.4645 14.6553C24.6263 14.5546 24.7929 14.7764 24.6539 14.907L17.2209 21.9091C16.9596 22.1556 16.7911 22.4854 16.7433 22.8434L16.4901 24.745C16.4566 24.9989 16.1047 25.0241 16.0355 24.7784L15.0617 21.3108C14.9502 20.9153 15.1127 20.4928 15.4579 20.2769Z"
+                  fill="#0F82CF" />
+              </svg>
+            </a>
+          </div>
+          <div class="header__whatsapp">
+            <a href="#">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="19" stroke="#0F82CF" stroke-width="2" />
+                <path
+                  d="M29.005 22.5826C28.9274 22.5453 26.0247 21.116 25.5089 20.9303C25.2984 20.8547 25.0728 20.7809 24.8328 20.7809C24.4409 20.7809 24.1116 20.9762 23.8551 21.3599C23.5652 21.7909 22.6874 22.8169 22.4162 23.1235C22.3808 23.1639 22.3324 23.2123 22.3035 23.2123C22.2775 23.2123 21.8283 23.0273 21.6923 22.9682C18.5785 21.6156 16.215 18.363 15.8909 17.8145C15.8446 17.7356 15.8426 17.6998 15.8423 17.6998C15.8536 17.658 15.9583 17.5531 16.0124 17.4989C16.1705 17.3425 16.3418 17.1363 16.5075 16.9368C16.586 16.8423 16.6646 16.7477 16.7417 16.6585C16.9822 16.3787 17.0892 16.1616 17.2133 15.91L17.2784 15.7793C17.5814 15.1773 17.3226 14.6692 17.2389 14.5052C17.1703 14.3679 15.9446 11.4099 15.8143 11.0991C15.501 10.3492 15.0869 10 14.5115 10C14.4581 10 14.5115 10 14.2876 10.0094C14.015 10.0209 12.5303 10.2164 11.8738 10.6302C11.1777 11.0691 10 12.4681 10 14.9284C10 17.1427 11.4052 19.2335 12.0085 20.0287C12.0235 20.0487 12.0511 20.0894 12.091 20.1478C14.4015 23.5221 17.2818 26.0228 20.2017 27.1892C23.0128 28.3121 24.3439 28.4419 25.1007 28.4419C25.1008 28.4419 25.1008 28.4419 25.1008 28.4419C25.4188 28.4419 25.6734 28.4169 25.8979 28.3948L26.0404 28.3813C27.0115 28.2952 29.1455 27.1894 29.631 25.8404C30.0133 24.7779 30.1142 23.617 29.8598 23.1957C29.6855 22.9093 29.3852 22.7651 29.005 22.5826Z"
+                  fill="#0F82CF" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <a class="header__btn" href="#">
+          Обратный звонок
+        </a>
+        <div class="header__adaptive-btn">
+          <span></span>
+        </div>
+        <aside class="header__adaptive-aside">
+          <nav class="header__adaptive-menu">
+            <ul>
+              <li class="header__adaptive-menu-item">
+                <a href="">Услуги</a>
+              </li>
+              <li class="header__adaptive-menu-item">
+                <a href="">Назначение</a>
+              </li>
+              <li class="header__adaptive-menu-item">
+                <a href="">Как это работает</a>
+              </li>
+              <li class="header__adaptive-menu-item">
+                <a href="">О нас</a>
+              </li>
+              <li class="header__adaptive-menu-item">
+                <a href="">Наши работы</a>
+              </li>
+              <li class="header__adaptive-menu-item">
+                <a href="">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__adaptive-social">
+            <div class="header__adaptive-telegram">
+              <a href="#">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="20" cy="20" r="19" stroke="#0F82CF" stroke-width="2" />
+                  <path
+                    d="M9.35326 19.4617L13.9617 21.2048L15.7454 27.0183C15.8595 27.3906 16.3088 27.5282 16.607 27.2811L19.1758 25.1589C19.4451 24.9365 19.8286 24.9255 20.11 25.1325L24.7432 28.5414C25.0622 28.7764 25.5141 28.5993 25.5941 28.2086L28.9882 11.6634C29.0756 11.2367 28.6618 10.8807 28.2609 11.0379L9.34786 18.4319C8.88113 18.6143 8.88519 19.2839 9.35326 19.4617ZM15.4579 20.2769L24.4645 14.6553C24.6263 14.5546 24.7929 14.7764 24.6539 14.907L17.2209 21.9091C16.9596 22.1556 16.7911 22.4854 16.7433 22.8434L16.4901 24.745C16.4566 24.9989 16.1047 25.0241 16.0355 24.7784L15.0617 21.3108C14.9502 20.9153 15.1127 20.4928 15.4579 20.2769Z"
+                    fill="#0F82CF" />
+                </svg>
+              </a>
+            </div>
+            <div class="header__adaptive-whatsapp">
+              <a href="#">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="20" cy="20" r="19" stroke="#0F82CF" stroke-width="2" />
+                  <path
+                    d="M29.005 22.5826C28.9274 22.5453 26.0247 21.116 25.5089 20.9303C25.2984 20.8547 25.0728 20.7809 24.8328 20.7809C24.4409 20.7809 24.1116 20.9762 23.8551 21.3599C23.5652 21.7909 22.6874 22.8169 22.4162 23.1235C22.3808 23.1639 22.3324 23.2123 22.3035 23.2123C22.2775 23.2123 21.8283 23.0273 21.6923 22.9682C18.5785 21.6156 16.215 18.363 15.8909 17.8145C15.8446 17.7356 15.8426 17.6998 15.8423 17.6998C15.8536 17.658 15.9583 17.5531 16.0124 17.4989C16.1705 17.3425 16.3418 17.1363 16.5075 16.9368C16.586 16.8423 16.6646 16.7477 16.7417 16.6585C16.9822 16.3787 17.0892 16.1616 17.2133 15.91L17.2784 15.7793C17.5814 15.1773 17.3226 14.6692 17.2389 14.5052C17.1703 14.3679 15.9446 11.4099 15.8143 11.0991C15.501 10.3492 15.0869 10 14.5115 10C14.4581 10 14.5115 10 14.2876 10.0094C14.015 10.0209 12.5303 10.2164 11.8738 10.6302C11.1777 11.0691 10 12.4681 10 14.9284C10 17.1427 11.4052 19.2335 12.0085 20.0287C12.0235 20.0487 12.0511 20.0894 12.091 20.1478C14.4015 23.5221 17.2818 26.0228 20.2017 27.1892C23.0128 28.3121 24.3439 28.4419 25.1007 28.4419C25.1008 28.4419 25.1008 28.4419 25.1008 28.4419C25.4188 28.4419 25.6734 28.4169 25.8979 28.3948L26.0404 28.3813C27.0115 28.2952 29.1455 27.1894 29.631 25.8404C30.0133 24.7779 30.1142 23.617 29.8598 23.1957C29.6855 22.9093 29.3852 22.7651 29.005 22.5826Z"
+                    fill="#0F82CF" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="header__adaptive-links">
+            <div class="header__adaptive-phone">
+              <a href="tel:+79264233199">
+                +7 (926) 423-31-99
+              </a>
+            </div>
+            <div class="header__adaptive-email">
+              <a href="mailto:info@uslugidlyabiznesa.ru">
+                info@uslugidlyabiznesa.ru
+              </a>
+            </div>
+          </div>
+        </aside>
+      </section>
+      <section class="header__content">
+        <img class="header__img--bottom" src="img/logo-bottom.svg" alt="">
+        <h1 class="header__title">
+          <span>Решения для жизни - когда качество и комфорт важнее всего!</span> С <span>2014</span> года устанавливаем
+          системы туманообразования
+        </h1>
+        <span class="header__line"></span>
+      </section>
+      <div class="header__slider">
+        <div class="header__slider-item">
+          <div class="header__slider-info">
+            <div class="header__slider-title">
+              У нас вы всегда сможете:
+            </div>
+            <div class="header__slider-text__wrapper">
+              <div class="header__slider-text">
+                Получить качественные услуги по установке и монтажу
+                системы туманообразования «Под ключ»
+              </div>
+              <div class="header__slider-text">
+                Получить качественные услуги по установке и монтажу
+                системы туманообразования «Под ключ»
+              </div>
+              <div class="header__slider-text">
+                Получить качественные услуги по установке и монтажу
+                системы туманообразования «Под ключ»
+              </div>
+              <div class="header__slider-text">
+                Получить качественные услуги по установке и монтажу
+                системы туманообразования «Под ключ»
+              </div>
+            </div>
+          </div>
+          <div class="header__slider-img__wrapper">
+            <img src="img/header_slider_img.jpg" alt="">
+            <img src="img/header_slider_img.jpg" alt="">
+            <img src="img/header_slider_img.jpg" alt="">
+            <img src="img/header_slider_img.jpg" alt="">
+          </div>
+        </div>
+      </div>
+  </header>
+  <section class="usage">
+    <div class="container">
+      <h3 class="usage__title">
+        Наши направления
+      </h3>
+      <div class="usage__items">
+        <div class="usage__item item1">
+          <div class="usage__item-text__wrapper">
+            <div class="usage__item-title">
+              Туманообразование на <br>
+              производственных предприятиях
+              <div class="usage__item-text text1">
+                В жаркое время года туман на летней площадке станет спасением для посетителей кафе и ресторанов.
+                Благодаря
+                туманообразующей системе снижается температура по всей территории распыления до оптимальных
+                показателей
+              </div>
+            </div>
+          </div>
+          <a href="#">
+            Подробнее
+          </a>
+        </div>
+        <div class="usage__item item2">
+          <div class="usage__item-text__wrapper">
+            <div class="usage__item-title">
+              Взять наше оборудование <br>
+              в аренду
+              <div class="usage__item-text text2">
+                В жаркое время года туман на летней площадке станет спасением для посетителей кафе и ресторанов.
+                Благодаря
+                туманообразующей системе снижается температура по всей территории распыления до оптимальных показателей
+              </div>
+            </div>
+          </div>
+          <a href="#">
+            Подробнее
+          </a>
+        </div>
+        <div class="usage__item item3">
+          <div class="usage__item-text__wrapper">
+            <div class="usage__item-title">
+              Установка в сфере животноводства
+              <div class="usage__item-text text3">
+                В жаркое время года туман на летней площадке станет спасением для посетителей кафе и ресторанов.
+                Благодаря
+                туманообразующей системе снижается температура по всей территории распыления до оптимальных показателей
+              </div>
+            </div>
+          </div>
+          <a href="#">
+            Подробнее
+          </a>
+        </div>
+        <div class="usage__item item4">
+          <div class="usage__item-text__wrapper">
+            <div class="usage__item-title">
+              Для кафе, ресторанов, летних площадок и террас
+              <div class="usage__item-text text4">
+                В жаркое время года туман на летней площадке станет спасением для посетителей кафе и ресторанов.
+                Благодаря
+                туманообразующей системе снижается температура по всей территории распыления до оптимальных показателей
+              </div>
+            </div>
+          </div>
+          <a href="#">
+            Подробнее
+          </a>
+        </div>
+        <div class="usage__item item5">
+          <div class="usage__item-text__wrapper">
+            <div class="usage__item-title">
+              Туманообразование для теплиц и оранжерей
+              <div class="usage__item-text text5">
+                В жаркое время года туман на летней площадке станет спасением для посетителей кафе и ресторанов.
+                Благодаря
+                туманообразующей системе снижается температура по всей территории распыления до оптимальных показателей
+              </div>
+            </div>
+          </div>
+          <a href="#">
+            Подробнее
+          </a>
+        </div>
+      </div>
+  </section>
+  <section class="specifications">
+    <div class="container">
+      <ul class="specifications__items">
+        <li class="specifications__item">
+          <img src="img/specifications-img-1.svg" alt="">
+          <p>Увлажнение</p>
+        </li>
+        <li class="specifications__item">
+          <img src="img/specifications-img-2.svg" alt="">
+          <p>Устранение пыли</p>
+        </li>
+        <li class="specifications__item">
+          <img src="img/specifications-img-3.svg" alt="">
+          <p>Орошение</p>
+        </li>
+        <li class="specifications__item">
+          <img src="img/specifications-img-4.svg" alt="">
+          <p>Отпугивание насекомых</p>
+        </li>
+        <li class="specifications__item">
+          <img src="img/specifications-img-5.svg" alt="">
+          <p>Устранение запахов</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="steps">
+    <div class="container">
+      <h3 class="steps__title">
+        Что дальше?
+      </h3>
+      <div class="steps__inner">
+        <div class="steps__links">
+          <ul class="steps__links-list">
+            <li id="steps_1">
+              <div class="steps__links-list__number">
+                1
+                <span>шаг</span>
+              </div>
+              <div class="steps__links-list-info">
+                Обсуждаем ваши требования
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <li id="steps_2">
+              <div class="steps__links-list__number">
+                2
+                <span>шаг</span>
+              </div>
+              <div class="steps__links-list-info">
+                Подбираем систему туманообразования
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <li id="steps_3">
+              <div class="steps__links-list__number">
+                3
+                <span>шаг</span>
+              </div>
+              <div class="steps__links-list-info">
+                Делаем просчет проекта в нескольких вариантах
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <li id="steps_4">
+              <div class="steps__links-list__number">
+                4
+                <span>шаг</span>
+              </div>
+              <div class="steps__links-list-info">
+                Выезжаем на объект, заключаем договор
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <li id="steps_5">
+              <div class="steps__links-list__number">
+                5
+                <span>шаг</span>
+              </div>
+              <div class="steps__links-list-info">
+                Мы производим монтаж и установку системы
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="steps__slider">
+          <div id="steps__slide_1" class="steps__slider-inner visible">
+            <div class="steps__slider-title">
+              Принцип работы состоит из нескольких основных процессов.
+            </div>
+            <div class="steps__slider-text">
+              Распыленная вода моментально испаряется, поглощая тепло из воздуха. Таким образом снижается температура
+              воздуха.
+            </div>
+            <div class="steps__slider-list__title">
+              Система туманообразования состоит из следующих элементов:
+            </div>
+            <ul class="steps__slider-list">
+              <li class="steps__slider-list__item">Систкма фильтрации</li>
+              <li class="steps__slider-list__item">Насосная установка высокого давления (70-100 бар) или низкого
+                давления (ниже 10 бар)</li>
+              <li class="steps__slider-list__item">Форсунки туманообразующие</li>
+              <li class="steps__slider-list__item">Фитинги</li>
+              <li class="steps__slider-list__item">Пульт управления</li>
+            </ul>
+            <div class="steps__slider-footer">
+              При правильном подборе туманообразующей системы возможно охладить, увлажнить воздух, устранить неприятные
+              запахи, аллергены и отпугнуть насекомых, а так же снять статическое электричество.
+            </div>
+          </div>
+          <div id="steps__slide_2" class="steps__slider-inner">
+            <div class="steps__slider-title">
+              Принцип работы состоит из нескольких основных процессов.
+            </div>
+            <div class="steps__slider-text">
+              Распыленная вода моментально испаряется, поглощая тепло из воздуха. Таким образом снижается температура
+              воздуха.
+            </div>
+            <div class="steps__slider-list__title">
+              Система туманообразования состоит из следующих элементов:
+            </div>
+            <ul class="steps__slider-list">
+              <li class="steps__slider-list__item">Систкма фильтрации</li>
+              <li class="steps__slider-list__item">Насосная установка высокого давления (70-100 бар) или низкого
+                давления (ниже 10 бар)</li>
+              <li class="steps__slider-list__item">Форсунки туманообразующие</li>
+              <li class="steps__slider-list__item">Фитинги</li>
+              <li class="steps__slider-list__item">Пульт управления</li>
+            </ul>
+            <div class="steps__slider-footer">
+              При правильном подборе туманообразующей системы возможно охладить, увлажнить воздух, устранить неприятные
+              запахи, аллергены и отпугнуть насекомых, а так же снять статическое электричество.
+            </div>
+          </div>
+          <div id="steps__slide_3" class="steps__slider-inner">
+            <div class="steps__slider-title">
+              Принцип работы состоит из нескольких основных процессов.
+            </div>
+            <div class="steps__slider-text">
+              Распыленная вода моментально испаряется, поглощая тепло из воздуха. Таким образом снижается температура
+              воздуха.
+            </div>
+            <div class="steps__slider-list__title">
+              Система туманообразования состоит из следующих элементов:
+            </div>
+            <ul class="steps__slider-list">
+              <li class="steps__slider-list__item">Систкма фильтрации</li>
+              <li class="steps__slider-list__item">Насосная установка высокого давления (70-100 бар) или низкого
+                давления (ниже 10 бар)</li>
+              <li class="steps__slider-list__item">Форсунки туманообразующие</li>
+              <li class="steps__slider-list__item">Фитинги</li>
+              <li class="steps__slider-list__item">Пульт управления</li>
+            </ul>
+            <div class="steps__slider-footer">
+              При правильном подборе туманообразующей системы возможно охладить, увлажнить воздух, устранить неприятные
+              запахи, аллергены и отпугнуть насекомых, а так же снять статическое электричество.
+            </div>
+          </div>
+          <div id="steps__slide_4" class="steps__slider-inner">
+            <div class="steps__slider-title">
+              Принцип работы состоит из нескольких основных процессов.
+            </div>
+            <div class="steps__slider-text">
+              Распыленная вода моментально испаряется, поглощая тепло из воздуха. Таким образом снижается температура
+              воздуха.
+            </div>
+            <div class="steps__slider-list__title">
+              Система туманообразования состоит из следующих элементов:
+            </div>
+            <ul class="steps__slider-list">
+              <li class="steps__slider-list__item">Систкма фильтрации</li>
+              <li class="steps__slider-list__item">Насосная установка высокого давления (70-100 бар) или низкого
+                давления (ниже 10 бар)</li>
+              <li class="steps__slider-list__item">Форсунки туманообразующие</li>
+              <li class="steps__slider-list__item">Фитинги</li>
+              <li class="steps__slider-list__item">Пульт управления</li>
+            </ul>
+            <div class="steps__slider-footer">
+              При правильном подборе туманообразующей системы возможно охладить, увлажнить воздух, устранить неприятные
+              запахи, аллергены и отпугнуть насекомых, а так же снять статическое электричество.
+            </div>
+          </div>
+          <div id="steps__slide_5" class="steps__slider-inner">
+            <div class="steps__slider-title">
+              Принцип работы состоит из нескольких основных процессов.
+            </div>
+            <div class="steps__slider-text">
+              Распыленная вода моментально испаряется, поглощая тепло из воздуха. Таким образом снижается температура
+              воздуха.
+            </div>
+            <div class="steps__slider-list__title">
+              Система туманообразования состоит из следующих элементов:
+            </div>
+            <ul class="steps__slider-list">
+              <li class="steps__slider-list__item">Систкма фильтрации</li>
+              <li class="steps__slider-list__item">Насосная установка высокого давления (70-100 бар) или низкого
+                давления (ниже 10 бар)</li>
+              <li class="steps__slider-list__item">Форсунки туманообразующие</li>
+              <li class="steps__slider-list__item">Фитинги</li>
+              <li class="steps__slider-list__item">Пульт управления</li>
+            </ul>
+            <div class="steps__slider-footer">
+              При правильном подборе туманообразующей системы возможно охладить, увлажнить воздух, устранить неприятные
+              запахи, аллергены и отпугнуть насекомых, а так же снять статическое электричество.
+            </div>
+          </div>
+        </div>
+        <div class="steps__img">
+          <img src="img/steps-img.jpg" alt="">
+        </div>
+      </div>
+      <div class="steps__adaptive">
+        <div class="steps__links">
+          <ul class="steps__links-list">
+            <li id="steps_adaptive_1">
+              <div class="steps__links-list__number">
+                1
+                <span>шаг</span>
+              </div>
+              <div class="steps__links-list-info">
+                Обсуждаем ваши требования
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <div id="steps__adaptive-slide_1" class="steps__adaptive-slider-inner">
+              <div class="steps__adaptive-slider-title">
+                Принцип работы состоит из нескольких основных процессов.
+              </div>
+              <div class="steps__adaptive-slider-text">
+                Распыленная вода моментально испаряется, поглощая тепло из воздуха. Таким образом снижается температура
+                воздуха.
+              </div>
+              <div class="steps__adaptive-slider-list__title">
+                Система туманообразования состоит из следующих элементов:
+              </div>
+              <ul class="steps__adaptive-slider-list">
+                <li class="steps__adaptive-slider-list__item">Систкма фильтрации</li>
+                <li class="steps__adaptive-slider-list__item">Насосная установка высокого давления (70-100 бар) или
+                  низкого
+                  давления (ниже 10 бар)</li>
+                <li class="steps__adaptive-slider-list__item">Форсунки туманообразующие</li>
+                <li class="steps__adaptive-slider-list__item">Фитинги</li>
+                <li class="steps__adaptive-slider-list__item">Пульт управления</li>
+              </ul>
+              <div class="steps__adaptive-slider-footer">
+                При правильном подборе туманообразующей системы возможно охладить, увлажнить воздух, устранить
+                неприятные
+                запахи, аллергены и отпугнуть насекомых, а так же снять статическое электричество.
+              </div>
+            </div>
+            <li id="steps_adaptive_2">
+              <div class="steps__links-list__number">
+                2
+                <span>шаг</span>
+              </div>
+              <div class="steps__links-list-info">
+                Подбираем систему туманообразования
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <div id="steps__adaptive-slide_2" class="steps__adaptive-slider-inner">
+              <div class="steps__adaptive-slider-title">
+                Принцип работы состоит из нескольких основных процессов.
+              </div>
+              <div class="steps__adaptive-slider-text">
+                Распыленная вода моментально испаряется, поглощая тепло из воздуха. Таким образом снижается температура
+                воздуха.
+              </div>
+              <div class="steps__adaptive-slider-list__title">
+                Система туманообразования состоит из следующих элементов:
+              </div>
+              <ul class="steps__adaptive-slider-list">
+                <li class="steps__adaptive-slider-list__item">Систкма фильтрации</li>
+                <li class="steps__adaptive-slider-list__item">Насосная установка высокого давления (70-100 бар) или
+                  низкого
+                  давления (ниже 10 бар)</li>
+                <li class="steps__adaptive-slider-list__item">Форсунки туманообразующие</li>
+                <li class="steps__adaptive-slider-list__item">Фитинги</li>
+                <li class="steps__adaptive-slider-list__item">Пульт управления</li>
+              </ul>
+              <div class="steps__adaptive-slider-footer">
+                При правильном подборе туманообразующей системы возможно охладить, увлажнить воздух, устранить
+                неприятные
+                запахи, аллергены и отпугнуть насекомых, а так же снять статическое электричество.
+              </div>
+            </div>
+            <li id="steps_adaptive_3">
+              <div class="steps__links-list__number">
+                3
+                <span>шаг</span>
+              </div>
+              <div class="steps__links-list-info">
+                Делаем просчет проекта в нескольких вариантах
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <div id="steps__adaptive-slide_3" class="steps__adaptive-slider-inner">
+              <div class="steps__adaptive-slider-title">
+                Принцип работы состоит из нескольких основных процессов.
+              </div>
+              <div class="steps__adaptive-slider-text">
+                Распыленная вода моментально испаряется, поглощая тепло из воздуха. Таким образом снижается температура
+                воздуха.
+              </div>
+              <div class="steps__adaptive-slider-list__title">
+                Система туманообразования состоит из следующих элементов:
+              </div>
+              <ul class="steps__adaptive-slider-list">
+                <li class="steps__adaptive-slider-list__item">Систкма фильтрации</li>
+                <li class="steps__adaptive-slider-list__item">Насосная установка высокого давления (70-100 бар) или
+                  низкого
+                  давления (ниже 10 бар)</li>
+                <li class="steps__adaptive-slider-list__item">Форсунки туманообразующие</li>
+                <li class="steps__adaptive-slider-list__item">Фитинги</li>
+                <li class="steps__adaptive-slider-list__item">Пульт управления</li>
+              </ul>
+              <div class="steps__adaptive-slider-footer">
+                При правильном подборе туманообразующей системы возможно охладить, увлажнить воздух, устранить
+                неприятные
+                запахи, аллергены и отпугнуть насекомых, а так же снять статическое электричество.
+              </div>
+            </div>
+            <li id="steps_adaptive_4">
+              <div class="steps__links-list__number">
+                4
+                <span>шаг</span>
+              </div>
+              <div class="steps__links-list-info">
+                Выезжаем на объект, заключаем договор
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <div id="steps__adaptive-slide_4" class="steps__adaptive-slider-inner">
+              <div class="steps__adaptive-slider-title">
+                Принцип работы состоит из нескольких основных процессов.
+              </div>
+              <div class="steps__adaptive-slider-text">
+                Распыленная вода моментально испаряется, поглощая тепло из воздуха. Таким образом снижается температура
+                воздуха.
+              </div>
+              <div class="steps__adaptive-slider-list__title">
+                Система туманообразования состоит из следующих элементов:
+              </div>
+              <ul class="steps__adaptive-slider-list">
+                <li class="steps__adaptive-slider-list__item">Систкма фильтрации</li>
+                <li class="steps__adaptive-slider-list__item">Насосная установка высокого давления (70-100 бар) или
+                  низкого
+                  давления (ниже 10 бар)</li>
+                <li class="steps__adaptive-slider-list__item">Форсунки туманообразующие</li>
+                <li class="steps__adaptive-slider-list__item">Фитинги</li>
+                <li class="steps__adaptive-slider-list__item">Пульт управления</li>
+              </ul>
+              <div class="steps__adaptive-slider-footer">
+                При правильном подборе туманообразующей системы возможно охладить, увлажнить воздух, устранить
+                неприятные
+                запахи, аллергены и отпугнуть насекомых, а так же снять статическое электричество.
+              </div>
+            </div>
+            <li id="steps_adaptive_5">
+              <div class="steps__links-list__number">
+                5
+                <span>шаг</span>
+              </div>
+              <div class="steps__links-list-info">
+                Мы производим монтаж и установку системы
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <div id="steps__adaptive-slide_5" class="steps__adaptive-slider-inner">
+              <div class="steps__adaptive-slider-title">
+                Принцип работы состоит из нескольких основных процессов.
+              </div>
+              <div class="steps__adaptive-slider-text">
+                Распыленная вода моментально испаряется, поглощая тепло из воздуха. Таким образом снижается температура
+                воздуха.
+              </div>
+              <div class="steps__adaptive-slider-list__title">
+                Система туманообразования состоит из следующих элементов:
+              </div>
+              <ul class="steps__adaptive-slider-list">
+                <li class="steps__adaptive-slider-list__item">Систкма фильтрации</li>
+                <li class="steps__adaptive-slider-list__item">Насосная установка высокого давления (70-100 бар) или
+                  низкого
+                  давления (ниже 10 бар)</li>
+                <li class="steps__adaptive-slider-list__item">Форсунки туманообразующие</li>
+                <li class="steps__adaptive-slider-list__item">Фитинги</li>
+                <li class="steps__adaptive-slider-list__item">Пульт управления</li>
+              </ul>
+              <div class="steps__adaptive-slider-footer">
+                При правильном подборе туманообразующей системы возможно охладить, увлажнить воздух, устранить
+                неприятные
+                запахи, аллергены и отпугнуть насекомых, а так же снять статическое электричество.
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="container">
+      <h3 class="about__title">
+        Познакомимся?
+      </h3>
+      <div class="about__inner">
+        <div class="about__img">
+          <div class="about__img-name">
+            Алексей
+          </div>
+          <div class="about__img-position">
+            Инженер-проектировщик
+          </div>
+          <img src="img/about-img1.jpg" alt="">
+        </div>
+        <div class="about__img">
+          <div class="about__img-name">
+            Руслан
+          </div>
+          <div class="about__img-position">
+            Инженер-проектировщик
+          </div>
+          <img src="img/about-img2.jpg" alt="">
+        </div>
+        <div class="about__info">
+          <h4 class="about__info-title">
+            История компании Решения для жизни началась в 2014 году.
+          </h4>
+          <div class="about__info-list">
+            <div class="about__info-list__title">
+              С самого момента создания компании, нашими главными приоритетами остается:
+            </div>
+            <ul class="about__info-list__items">
+              <li class="about__info-list__item">
+                Предоставление услуг по доставке, монтажу и проектированию систем туманообразования
+              </li>
+              <li class="about__info-list__item">
+                Обеспечение гарантийного и текущего ремонта, оформляем официальную гарантию на все виды предоставляемых
+                нами услуг.
+              </li>
+              <li class="about__info-list__item">
+                Сдача в аренду профессионального туманообразующего оборудования
+              </li>
+            </ul>
+          </div>
+          <div class="about__info-text">
+            Каждый клиент всегда получает грамотную консультацию.
+            Для постоянных клиентов предлагаются приятные подарки и специальными скидки.
+          </div>
+          <div class="about__info-btn">
+            <a href="#">Рассчитать стоимость</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="projects">
+    <div class="container">
+      <h3 class="projects__title">
+        Наши работы
+      </h3>
+      <div class="projects__inner">
+        <div class="projects__items--left">
+          <div class="projects__item--left">
+          </div>
+          <div class="projects__item--left">
+          </div>
+          <div class="projects__item--left">
+          </div>
+          <div class="projects__item--left">
+          </div>
+          <div class="projects__item--left">
+          </div>
+        </div>
+        <div class="projects__items-wrapper">
+          <div class="projects__items--right--top">
+            <div class="projects__item--right--top">
+            </div>
+            <div class="projects__item--right--top">
+            </div>
+          </div>
+          <div class="projects__items--right">
+            <div class="projects__item--right">
+            </div>
+            <div class="projects__item--right">
+            </div>
+            <div class="projects__item--right">
+            </div>
+            <div class="projects__item--right">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="form">
+    <div class="container">
+      <div class="form__inner">
+        <div class="form__title">
+          Ответим на все интересующие вас вопросы
+        </div>
+        <div class="form__text-wrapper">
+          <div class="form__text">
+            Поможем подобрать систему туманообразования, проконсультируем, обсудим стоимость работ
+          </div>
+        </div>
+        <div class="form__phones">
+          <div class="form__phone">
+            <a href="tel:+79264233199">+7 (926) 423-31-99</a>
+          </div>
+          <div class="form__phone">
+            <a href="tel:+79773651525">+7 (977) 365-15-25</a>
+          </div>
+        </div>
+        <form class="form__feedback">
+          <div class="form__feedback-input__wrapper">
+            <div class="form__feedback-input">
+              <input type="text" id="feedback__name" required>
+              <label for="feedback__name">Как к вам обращаться?</label>
+            </div>
+            <div class="form__feedback-input">
+              <input type="text" id="feedback__phone" required>
+              <label for="feedback__phone">Номер телефона</label>
+            </div>
+            <div class="form__feedback-input">
+              <input type="text" id="feedback__email" required>
+              <label for="feedback__email">Почтовый ящик</label>
+            </div>
+          </div>
+          <input class="form__feedback-btn" type="submit" value="Перезвоните мне">
+        </form>
+        <div class="form__footer">
+          Нажимая на кнопку, вы даёте согласие на обработку своих персональных данных и соглашаетесь с
+          <a href="#">Пользовательским соглашением</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__rights">
+          2014-2020 © Решения для жизни
+        </div>
+        <div class="footer__docs">
+          <a href="#">Политика конфиденциальности</a>
+          и
+          <a href="#">Правила обработки персональных данных</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

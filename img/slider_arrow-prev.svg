@@ -1,0 +1,9 @@
+<svg viewbox="0 0 200 200" width='200px'
+      height='200px'>
+        <circle r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="#ccc"/>
+        <circle  r="80" cx="100" cy="100" fill="none" stroke-width="12" stroke="orangered"
+                stroke-linecap="round" />
+        <text x="100" y="125" font-family="Arial" font-size="70"
+              text-anchor="middle" fill="#444">
+        </text>
+      </svg>
